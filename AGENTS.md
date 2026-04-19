@@ -22,6 +22,11 @@ Do not manually reread startup files unless:
 2. The provided context is missing something you need
 3. You need a deeper follow-up read beyond the provided startup context
 
+### Startup helpers
+
+- `BOOT.md` is the short startup checklist
+- `ORCHESTRATION.md` defines long-term delegation and coordination behavior
+
 ## Memory
 
 You wake up fresh each session. These files are your continuity:

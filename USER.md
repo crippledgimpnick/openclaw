@@ -2,7 +2,7 @@
 
 - **Name:** Nick
 - **What to call them:** Nick
-- **Timezone:** UTC (assumed until Nick says otherwise)
+- **Timezone:** EST
 - **Notes:** Runs a business buying unused, non-expired diabetic supplies from customers. Wants practical, simple, scalable systems in GoHighLevel. Values fast lead response, clean workflows, higher conversion, lower admin overhead, and reusable SOPs/templates.
 
 ## Context

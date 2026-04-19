@@ -43,3 +43,18 @@ Nick requested a dedicated workspace folder to document the full GoHighLevel pur
 
 **Rollback notes:**
 Safe to revert by removing the project directory or resetting to the commit that introduced it.
+
+### Discord integration planning document added
+**Files added:**
+- `docs/DISCORD_INTEGRATION_PLAN.md`
+
+**Reason:**
+Nick wants to set up Discord as another interface for working with Master Splinter while preserving the same practical operating context used in the CLI.
+
+**Impact:**
+- Documented the difference between Discord channel access and runtime/tool permissions
+- Established a recommended narrow security posture for the Discord rollout
+- Created a step-by-step setup and validation checklist
+
+**Rollback notes:**
+Safe to revert by removing the Discord integration planning document or resetting to the commit that introduced it.

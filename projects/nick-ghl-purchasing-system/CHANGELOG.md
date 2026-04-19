@@ -44,17 +44,17 @@ Nick requested a dedicated workspace folder to document the full GoHighLevel pur
 **Rollback notes:**
 Safe to revert by removing the project directory or resetting to the commit that introduced it.
 
-### Discord integration planning document added
-**Files added:**
-- `docs/DISCORD_INTEGRATION_PLAN.md`
+### Discord planning removed from GHL project
+**Files affected:**
+- `docs/DISCORD_INTEGRATION_PLAN.md` moved out of this project
 
 **Reason:**
-Nick wants to set up Discord as another interface for working with Master Splinter while preserving the same practical operating context used in the CLI.
+Nick clarified that Discord integration is a separate project and should not be tracked inside the GoHighLevel purchasing system folder.
 
 **Impact:**
-- Documented the difference between Discord channel access and runtime/tool permissions
-- Established a recommended narrow security posture for the Discord rollout
-- Created a step-by-step setup and validation checklist
+- kept the GHL project focused only on GoHighLevel system work
+- removed cross-project documentation mixing
+- improved long-term project organization
 
 **Rollback notes:**
-Safe to revert by removing the Discord integration planning document or resetting to the commit that introduced it.
+Safe to revert by moving the Discord planning document back into this project, though that is no longer the desired structure.

@@ -31,7 +31,7 @@ Recommended starting model:
 3. allow either:
    - direct messages with Nick, or
    - one dedicated private server channel for systems work
-4. keep the same workspace and project folder
+4. keep the same workspace while preserving separate project folders by topic
 5. use one persistent session or thread-bound session for the project when needed
 
 ## Best Option

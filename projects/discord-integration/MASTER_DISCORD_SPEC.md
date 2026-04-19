@@ -85,12 +85,16 @@ All meaningful Discord-related decisions or changes should update:
 - this master spec, if the change affects scope or security posture
 - supporting setup docs, if procedure changes
 
+## Current Approved Scope
+- primary surface: private channel first
+- approved server ID: `1488525272084123870`
+- approved channel ID: `1495218262789587034`
+- approved user ID: `1488920661370863656` (resolved from username `nick_80483`)
+- DMs remain controlled by pairing mode and are not the primary operating surface
+
 ## Open Questions
 These still require Nick's decision:
-- private channel or DM first
-- target server ID
-- target channel ID
-- whether DMs should be enabled at all
+- whether DMs should be enabled beyond pairing mode
 - whether thread-based project sessions are desired later
 
 ## Definition of Success

@@ -47,3 +47,36 @@ Nick asked to finish the Discord setup after inviting the bot to the server. Liv
 
 **Rollback notes:**
 Remove the explicit `dmPolicy` setting or reset to the prior config if a different DM access model is chosen later.
+
+### Discord scope narrowed to Nick, one server, and one channel
+**Files affected:**
+- OpenClaw config updated with Discord allowlist scope
+
+**Reason:**
+Nick provided the target Discord server, target channel, and Discord username for authorization. The username was resolved to stable Discord user ID `1488920661370863656`, then the runtime config was narrowed to that user, that server, and that channel.
+
+**Impact:**
+- removed wildcard guild scope from Discord config
+- added `channels.discord.allowFrom` for Nick's account
+- scoped guild access to server `1488525272084123870`
+- scoped channel access to `1495218262789587034`
+- restricted channel-level user access to Nick's resolved Discord ID
+
+**Rollback notes:**
+Revert the Discord config to wildcard guild access or reset to the prior config if broader access is intentionally needed later.
+
+### Discord runtime validated after scope lock
+**Files affected:**
+- `MASTER_DISCORD_SPEC.md`
+- `docs/DISCORD_INTEGRATION_PLAN.md`
+
+**Reason:**
+After narrowing scope to Nick, the target server, and the target channel, runtime verification was rerun to confirm whether Discord was operational.
+
+**Impact:**
+- Discord channel status is now `OK`
+- active Discord session detected for channel `1495218262789587034`
+- documented the approved server, channel, and resolved user scope in the project docs
+
+**Rollback notes:**
+Documentation-only change. Runtime rollback would mean changing the OpenClaw Discord scope configuration if requirements change later.

@@ -120,12 +120,15 @@ If Nick wants continuity similar to this CLI session, use a persistent project-o
 For Discord thread work later, thread-bound persistent ACP/subagent sessions can be useful, but only after the core setup is stable.
 
 ## Live Validation Findings
-Current runtime findings from OpenClaw status, security audit, and gateway logs:
+Current runtime findings from OpenClaw status, security audit, gateway logs, and follow-up config work:
 - Discord channel support is enabled in OpenClaw
 - the bot token is configured
-- the Discord provider is failing gateway startup with close code `4014`
-- the current root cause is missing privileged Message Content Intent in the Discord Developer Portal
-- native Discord commands are not yet scoped to an authorized user allowlist, so command access still needs Nick's Discord user ID or pairing approval
+- Discord scope is now narrowed to server `1488525272084123870`
+- channel access is now narrowed to `1495218262789587034`
+- Nick's account was resolved to Discord user ID `1488920661370863656`
+- `channels.discord.allowFrom` is now set for Nick's account
+- DM policy is explicitly set to `pairing`
+- latest runtime status shows Discord channel state `OK`
 
 ## Validation Checklist
 After setup, verify:

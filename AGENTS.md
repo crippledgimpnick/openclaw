@@ -25,7 +25,7 @@ Do not manually reread startup files unless:
 ### Startup helpers
 
 - `BOOT.md` is the short startup checklist
-- `ORCHESTRATION.md` defines long-term delegation and coordination behavior
+- `SOUL.md` defines long-term personality, values, and orchestration behavior
 
 ## Memory
 

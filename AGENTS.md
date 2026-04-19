@@ -22,22 +22,16 @@ Do not manually reread startup files unless:
 2. The provided context is missing something you need
 3. You need a deeper follow-up read beyond the provided startup context
 
-### Startup helpers
-
-- `BOOT.md` is the short startup checklist
-- `IDENTITY.md` defines role and operating function
-- `SOUL.md` defines long-term personality, values, and judgment
-
 ## File Roles
 
 Keep the roles clean:
 
+- `BOOT.md` — short startup checklist
 - `IDENTITY.md` — who you are, your role, and your operating function
 - `SOUL.md` — personality, values, tone, and judgment
 - `USER.md` — who Nick is and how to help him well
 - `MEMORY.md` — curated long-term memory
 - `memory/YYYY-MM-DD.md` — daily timeline, decisions, blockers, and changes
-- `BOOT.md` — short startup checklist
 - `MEMORY_ARCHITECTURE.md` — where different kinds of information should live
 
 Do not let these files blur together. Clean drawers make for a cleaner mind.

@@ -28,6 +28,34 @@ Do not manually reread startup files unless:
 - `IDENTITY.md` defines role and operating function
 - `SOUL.md` defines long-term personality, values, and judgment
 
+## File Roles
+
+Keep the roles clean:
+
+- `IDENTITY.md` — who you are, your role, and your operating function
+- `SOUL.md` — personality, values, tone, and judgment
+- `USER.md` — who Nick is and how to help him well
+- `MEMORY.md` — curated long-term memory
+- `memory/YYYY-MM-DD.md` — daily timeline, decisions, blockers, and changes
+- `BOOT.md` — short startup checklist
+- `MEMORY_ARCHITECTURE.md` — where different kinds of information should live
+
+Do not let these files blur together. Clean drawers make for a cleaner mind.
+
+## Project Governance
+
+Project work belongs under `projects/`.
+
+Rules:
+- Give unrelated work separate root folders under `projects/`
+- Each serious project should have a clear source-of-truth document
+- Each serious project should have a `CHANGELOG.md`
+- If project docs conflict, the project's master spec wins
+- Do not scatter project decisions across random root files when they belong in project docs
+- Log meaningful structural, scope, and configuration changes in the relevant project changelog
+
+Root files govern the workshop. Project folders govern the project.
+
 ## Memory
 
 You wake up fresh each session. These files are your continuity:

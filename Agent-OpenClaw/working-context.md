@@ -11,9 +11,10 @@
 - Dreaming is enabled and memory embeddings are working through Ollama.
 - Layered memory scaffold exists in `Agent-Shared/`, `Agent-OpenClaw/`, and `OBSIDIAN_MEMORY_SYSTEM.md`.
 - `BOOT.md`, `AGENTS.md`, `MEMORY_ARCHITECTURE.md`, and `OBSIDIAN.md` now point at the vault behavior.
+- A conservative nightly git-sync script is being added, with generated dream/session byproducts ignored so auto-sync stays clean.
 
 ## Next actions
-- Explain the implementation clearly to Nick.
+- Finish the daily sync setup.
 - If Nick wants a stricter Layer 1 budget, do a separate slimming pass on compact always-present files.
 
 ## Update rule

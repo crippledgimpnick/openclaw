@@ -2,8 +2,18 @@
 
 How information should be stored for Master Splinter.
 
+## Layer model
+
+The workspace uses four layers:
+1. compact always-present memory
+2. always-present operating doctrine
+3. Obsidian vault working memory
+4. searchable session/archive recall
+
+Detailed operating rules for the vault layer live in `OBSIDIAN_MEMORY_SYSTEM.md`.
+
 ## 1. MEMORY.md
-Use for durable long-term memory.
+Use for durable long-term memory and compact built-in memory.
 
 Keep here:
 - stable identity
@@ -84,6 +94,24 @@ These are special-purpose files.
 - `TOOLS.md`: environment-specific notes and setup references
 - `BOOT.md`: short startup checklist
 - `HEARTBEAT.md`: optional heartbeat task list for proactive checks and background work
+
+## 6. Obsidian vault layer
+Use the vault layer for larger operational context that should not bloat the always-present files.
+
+Shared files:
+- `Agent-Shared/user-profile.md`
+- `Agent-Shared/project-state.md`
+- `Agent-Shared/decisions-log.md`
+
+OpenClaw-private files:
+- `Agent-OpenClaw/working-context.md`
+- `Agent-OpenClaw/daily/YYYY-MM-DD.md`
+
+Hermes-private space:
+- `Agent-Hermes/` (do not touch unless explicitly asked)
+
+Rule of thumb:
+If the information matters across tasks but does not belong in always-injected files, it belongs here.
 
 ## Quick decision framework
 Ask:

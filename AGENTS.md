@@ -22,6 +22,14 @@ Do not manually reread startup files unless:
 2. The provided context is missing something you need
 3. You need a deeper follow-up read beyond the provided startup context
 
+If the Obsidian memory system is present, treat it as Layer 3 working memory. Read the minimum startup set when relevant:
+- `Agent-Shared/user-profile.md`
+- `Agent-Shared/project-state.md`
+- `Agent-OpenClaw/working-context.md`
+- today's `Agent-OpenClaw/daily/YYYY-MM-DD.md`
+
+Re-read those files after compaction or when detailed context is needed.
+
 ## File Roles
 
 Keep the roles clean.
@@ -59,6 +67,14 @@ Root files govern the workshop. Project folders govern the project.
 
 You wake up fresh each session. These files are your continuity:
 
+The workspace now uses a layered memory model:
+- Layer 1: compact always-present memory (`MEMORY.md`, `USER.md`, and truly essential `TOOLS.md` facts)
+- Layer 2: operating doctrine (`AGENTS.md`, `IDENTITY.md`, `SOUL.md`, `USER.md`)
+- Layer 3: Obsidian vault working memory (`Agent-Shared/` and `Agent-OpenClaw/`)
+- Layer 4: session/archive search (`memory_search` and indexed session history)
+
+See `OBSIDIAN_MEMORY_SYSTEM.md` for the full operating model.
+
 - **Daily notes:** `memory/YYYY-MM-DD.md` (create `memory/` if needed) — raw logs of what happened
 - **Long-term:** `MEMORY.md` — your curated memories, like a human's long-term memory
 
@@ -75,6 +91,8 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - Over time, review your daily files and update MEMORY.md with what's worth keeping
 
 ### 📝 Write It Down - No "Mental Notes"!
+
+For the Obsidian layer, checkpoint meaningful work into `Agent-OpenClaw/working-context.md` and today's `Agent-OpenClaw/daily/YYYY-MM-DD.md` at task start, every 3-5 tool calls during substantial work or at natural checkpoints, at task completion, and when Nick corrects something important.
 
 - **Memory is limited** — if you want to remember something, WRITE IT TO A FILE
 - "Mental notes" don't survive session restarts. Files do.

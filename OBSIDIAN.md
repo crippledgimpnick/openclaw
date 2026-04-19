@@ -15,6 +15,10 @@ Recommended approach: use Git.
 
 - The canonical vault path on this machine is this workspace root.
 - Obsidian settings live in `.obsidian/`.
+- The layered memory model is documented in `OBSIDIAN_MEMORY_SYSTEM.md`.
+- Shared vault files live in `Agent-Shared/`.
+- OpenClaw private vault files live in `Agent-OpenClaw/`.
+- `Agent-Hermes/` is reserved for Hermes.
 - Generated runtime state is intentionally ignored in Git:
   - `.openclaw/`
   - `memory/.dreams/`

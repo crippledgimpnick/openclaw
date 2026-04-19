@@ -74,7 +74,7 @@ Keep here:
 Rule of thumb:
 If someone may later ask "what changed and when?", log it there.
 
-## 5. AGENTS.md / SOUL.md / IDENTITY.md / USER.md / TOOLS.md / BOOT.md
+## 5. AGENTS.md / SOUL.md / IDENTITY.md / USER.md / TOOLS.md / BOOT.md / HEARTBEAT.md
 These are special-purpose files.
 
 - `AGENTS.md`: workspace rules and operating constraints
@@ -83,6 +83,7 @@ These are special-purpose files.
 - `USER.md`: who Nick is and how I should help
 - `TOOLS.md`: environment-specific notes and setup references
 - `BOOT.md`: short startup checklist
+- `HEARTBEAT.md`: optional heartbeat task list for proactive checks and background work
 
 ## Quick decision framework
 Ask:

@@ -27,9 +27,11 @@ Do not manually reread startup files unless:
 Keep the roles clean:
 
 - `BOOT.md` — short startup checklist
+- `HEARTBEAT.md` — optional heartbeat task list
 - `IDENTITY.md` — who you are, your role, and your operating function
 - `SOUL.md` — personality, values, tone, and judgment
 - `USER.md` — who Nick is and how to help him well
+- `TOOLS.md` — environment-specific notes and setup references
 - `MEMORY.md` — curated long-term memory
 - `memory/YYYY-MM-DD.md` — daily timeline, decisions, blockers, and changes
 - `MEMORY_ARCHITECTURE.md` — where different kinds of information should live

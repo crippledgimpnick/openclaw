@@ -1,7 +1,2 @@
-# HEARTBEAT.md Template
-
-```markdown
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
-
-# Add tasks below when you want the agent to check something periodically.
-```
+# Leave this file empty, or with only comments, unless you want active heartbeat work.
+# Add short task notes below only when you want the agent checking something proactively.

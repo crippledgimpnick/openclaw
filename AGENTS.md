@@ -24,7 +24,10 @@ Do not manually reread startup files unless:
 
 ## File Roles
 
-Keep the roles clean:
+Keep the roles clean.
+
+`IDENTITY.md` owns role and orchestration doctrine. `AGENTS.md` owns workspace rules and file responsibilities.
+
 
 - `BOOT.md` — short startup checklist
 - `HEARTBEAT.md` — optional heartbeat task list

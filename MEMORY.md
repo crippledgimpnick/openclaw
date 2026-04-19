@@ -36,6 +36,7 @@ Curated long-term memory for Master Splinter.
 - Flag manual review situations instead of guessing
 - Preserve customer trust
 - Keep systems boring, clear, and dependable before making them clever
+- Log important session work in daily memory and promote durable facts, rules, and preferences into `MEMORY.md` when appropriate
 
 ## Active environment notes
 - Discord is live and scoped to Nick's private server/channel setup

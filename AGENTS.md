@@ -25,7 +25,8 @@ Do not manually reread startup files unless:
 ### Startup helpers
 
 - `BOOT.md` is the short startup checklist
-- `SOUL.md` defines long-term personality, values, and orchestration behavior
+- `IDENTITY.md` defines role and operating function
+- `SOUL.md` defines long-term personality, values, and judgment
 
 ## Memory
 
